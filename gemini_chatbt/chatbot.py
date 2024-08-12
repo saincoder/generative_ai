@@ -3,7 +3,7 @@ import streamlit as st
 import os
 
 # Get API key from environment variable for security reasons
-GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY', 'AIzaSyAc1KDIVBLdTq1m1CGTTNRmtLK140AxYfY')
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY', 'AIzaTNRmtLK140AxYfY')
 
 # Configure the Generative AI model
 genai.configure(api_key=GOOGLE_API_KEY)
